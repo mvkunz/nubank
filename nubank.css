@@ -1,0 +1,123 @@
+body{
+    background-color: #820AD1;
+    color: #222;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+}
+
+.box {
+    font-weight: 80;
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    height: 550px;
+    
+}
+
+.logo{
+    position: absolute;
+}
+
+img {
+    top: 1.5rem;
+    left: 2rem;
+}
+
+p{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-block-start: 2em;
+    margin-block-end: 4em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+fieldset{
+    position: center;
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    border: none;  
+    margin: 0;
+    border-radius: 10px;
+}
+
+#login{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+#conta{
+    border-bottom-style: dotted;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    font-size: 14pt;
+    padding: 0px 40px;
+}
+
+#cpf{
+    text-align: left;
+}
+
+#password{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255,255,255,0);
+    font-family: inherit;
+    border-style: solid;
+    border-width: 0 0 1px;
+    display: block;
+
+}
+
+#botao{
+    margin-top: 2.5rem;
+    width: 300px;
+    height: 60px;
+    font-size: .8rem;
+    border-radius: 4px;
+    border-width: .5px;
+    text-align: center;
+    background-color: rgba(255,255,255,0);
+    border-color: #a8a8a8;
+    color: #707070;
+    cursor: pointer;
+    padding: 0px 60px;
+    box-shadow: none;
+}
+
+#forget{
+    color: #820AD1;
+    background-color: #FFFFFF;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#client{
+    color: #820AD1;
+    background-color: #FFFFFF;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    cursor: pointer;
+    margin: .5rem; 
+}
+
